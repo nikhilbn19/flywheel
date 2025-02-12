@@ -1,0 +1,6 @@
+CREATE TABLE audit (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    action VARCHAR(50),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

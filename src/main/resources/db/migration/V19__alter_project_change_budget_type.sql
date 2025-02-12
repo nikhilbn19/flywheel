@@ -1,0 +1,1 @@
+ALTER TABLE project MODIFY COLUMN budget DECIMAL(12,2);
